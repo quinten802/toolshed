@@ -247,7 +247,22 @@ label{
 .clearfix::after {
   clear: both;
 }
-
+/* Tabel */
+table{
+  width: 100%;
+}
+th{
+  text-align: left;
+}
+tr:nth-child(odd){
+background-color: #b9f8b9;
+}
+tr:first-child{
+background-color: #90ee90;
+}
+tr:hover{
+background-color: #90ee90;
+}
 /* ==========================================================================
    EXAMPLE Media Queries for Responsive Design.
    These examples override the primary ('mobile first') styles.
